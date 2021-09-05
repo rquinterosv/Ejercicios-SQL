@@ -53,3 +53,4 @@ SELECT * FROM Autos BY precio ASC;
 
 -- ¿Para que crear INDEX?
 CREATE INDEX index_id_auto ON Ventas(id_auto);
+CREATE INDEX index_id ON Autos(id);
