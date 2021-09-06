@@ -25,6 +25,11 @@ SELECT * FROM direccion WHERE nombre = 'Juan';
 -- PARA ELIMINAR SOLO LOS DATOS DE LA TABLA
 TRUCATE TALE Agenda;
 
+
+-- para crear desde la terminal con sql
+psql 
+\i DirectorioTelefonico.sql 
+
 -- Para Eliminar 
 
 DELETE FROM Directorio_telefonico WHERE nombre = 'Juan';

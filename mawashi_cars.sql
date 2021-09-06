@@ -23,9 +23,9 @@ CREATE TABLE Ventas(
 \copy AUTOS FROM 'autos.csv' csv header;
 
 -- Bloque 2
-SELECT a marca AS mar a.model AS mod, a.color AS c FROM Autos AS a;
+SELECT a marca ASS mod, a.color AS c FROM Autos AS a;
 
-INSERT INTO Ventas (FECHA, id_auto,) cliente, referencia, cantidad) VALUES ('2019*02*20', 2, 'Alexander Cell', 54322, 2000000);
+INSERT INTO Ventas (FECHA, id_auto,) cliente, referencia, cantidad) VALUES ('2019*02*20', 2, 'Alexander Cell', 54322, 2000000); 
 INSERT INTO Ventas (FECHA, id_auto,) cliente, referencia, cantidad) VALUES ('2009-03-14', 3, 'Katherine Smith', 12325, 1500000);
 
 --sumar cantidad
